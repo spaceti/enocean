@@ -1862,7 +1862,7 @@
     <profiles func="0x07" description="Deuta controls AL-463-00-868 Footfall counter">
       <profile type="0x10" description="Footfall counter">
         <data>
-          <value description="Supply voltage" shortcut="SVC" offset="0" size="8" unit="V">
+          <value description="Supply voltage" shortcut="SVC" offset="16" size="8" unit="V">
             <range>
               <min>0</min>
               <max>250</max>
@@ -1872,7 +1872,7 @@
               <max>5.0</max>
             </scale>
           </value>
-          <value description="Footfall counter value" shortcut="FTFL" offset="24" size="8" unit="">
+          <value description="Footfall counter value" shortcut="FTFL" offset="36" size="8" unit="">
             <range>
               <min>0</min>
               <max>255</max>
