@@ -72,6 +72,7 @@ class EEP(object):
     def _get_value(self, source, bitarray):
         ''' Get value, based on the data in XML '''
         raw_value = self._get_raw(source, bitarray)
+        self.logger.debug('Raw value %s, source %s, bitarray %s', hex(raw_value), hex(source), hex(bitarray))
 
         rng = source.find('range')
         rng_min = float(rng.find('min').text)
