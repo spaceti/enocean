@@ -1746,7 +1746,7 @@
               <max>100000</max>
             </scale>
           </value>
-          <enum description="Acceleration Status" shortcut="ACC" offset="35" size="2">
+          <enum description="Acceleration Status" shortcut="ACCS" offset="35" size="2">
             <item description="Periodic Update" value="0" />
             <item description="Threshold 1 exceeded" value="1" />
             <item description="Threshold 2 exceeded" value="2" />
