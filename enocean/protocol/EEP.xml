@@ -1872,7 +1872,7 @@
               <max>5.0</max>
             </scale>
           </value>
-          <value description="Counter value" shortcut="SVC" offset="24" size="8">
+          <value description="Footfall counter value" shortcut="FTFL" offset="24" size="8" unit="">
             <range>
               <min>0</min>
               <max>255</max>
