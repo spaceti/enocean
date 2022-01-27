@@ -1858,4 +1858,32 @@
       </profile>
     </profiles>
   </telegram>
+  <telegram rorg="0xD1" type="MSC" description="Manufacturer Specific Communication">
+    <profiles func="0x07" description="Deuta controls AL-463-00-868 Footfall counter">
+      <profile type="0x10" description="Footfall counter">
+        <data>
+          <value description="Supply voltage" shortcut="SVC" offset="0" size="8" unit="V">
+            <range>
+              <min>0</min>
+              <max>250</max>
+            </range>
+            <scale>
+              <min>0</min>
+              <max>5.0</max>
+            </scale>
+          </value>
+          <value description="Counter value" shortcut="SVC" offset="24" size="8">
+            <range>
+              <min>0</min>
+              <max>255</max>
+            </range>
+            <scale>
+              <min>0</min>
+              <max>255</max>
+            </scale>
+          </value>
+        </data>
+      </profile>
+    </profiles>
+  </telegram>
 </telegrams>
